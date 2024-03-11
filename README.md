@@ -11,10 +11,10 @@ only contain the cartesian positions of the arrange of atoms, and measures the
 euclidian distance between pairs of atoms (I,I+nStep)
 
 This program can be called directly:<br>
-    *Compilation: gfortran atm2dst.f90 -o atm2dst.exec<br>
-    *Usage: ./atm2dst.exec inFile nStep<br>
-        *inFile would be the input file<br>.
-        *nStep is the array-distance between the atoms distance to measure.<br>
+&emsp; Compilation: gfortran atm2dst.f90 -o atm2dst.exec<br>
+&emsp; Usage: ./atm2dst.exec inFile nStep<br>
+        &emsp;&emsp;inFile would be the input file<br>.
+        &emsp;&emsp;nStep is the array-distance between the atoms distance to measure.<br>
 
 This program can be called through runPDB.sh<br>
 By default, runPDB considers nStep==1, and that the files are located at a
