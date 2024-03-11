@@ -11,17 +11,16 @@ only contain the cartesian positions of the arrange of atoms, and measures the
 euclidian distance between pairs of atoms (I,I+nStep)
 
 This program can be called directly:<br>
-Compilation: gfortran atm2dst.f90 -o atm2dst.exec<br>
-Usage: ./atm2dst.exec inFile nStep<br>
-        inFile would be the input file<br>.
-        nStep is the array-distance between the atoms distance to measure.<br>
+    *Compilation: gfortran atm2dst.f90 -o atm2dst.exec<br>
+    *Usage: ./atm2dst.exec inFile nStep<br>
+        *inFile would be the input file<br>.
+        *nStep is the array-distance between the atoms distance to measure.<br>
 
-This program can be called through runPDB.sh
+This program can be called through runPDB.sh<br>
 By default, runPDB considers nStep==1, and that the files are located at a
-directory named directoryName.pdb
-Edit runPDB.sh to change nStep
-Specify the directory where the PDB/pos files are located
-Usage: ./runPDB.sh
+directory named directoryName.pdb <br>
+    *Edit runPDB.sh to change nStep, and specify the directory where the PDB/pos files are located
+    *Usage: ./runPDB.sh
 
 
 ## From CNDB 
@@ -32,11 +31,11 @@ atoms2dst.exec to measure the euclidian distances.
 
 cndb2dst.py requires the python library OpenMiChroM to function.
 
-This program can be called directly:
-Compilation: gfortran atm2dst.f90 -o atm2dst.exec     
-Usage: ./cndb2dst.py -f inFile -n nStep
-        inFile would be the CNDB input file.
-        nStep is the array-distance between the atoms distance to measure.
+This program can be called directly:<br>
+    *Compilation: gfortran atm2dst.f90 -o atm2dst.exec<br>
+    *Usage: ./cndb2dst.py -f inFile -n nStep<br>
+        *inFile would be the CNDB input file.<br>
+        *nStep is the array-distance between the atoms distance to measure.<br>
 
 This program can be called through runCNDB.sh
 By default, runPDB considers nStep==1, and that the files are located at a
