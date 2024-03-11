@@ -10,11 +10,11 @@ which contain positions of atoms next to the keyword ATOM, or pos files, which
 only contain the cartesian positions of the arrange of atoms, and measures the
 euclidian distance between pairs of atoms (I,I+nStep)
 
-This program can be called directly:
-Compilation: gfortran atm2dst.f90 -o atm2dst.exec     
-Usage: ./atm2dst.exec inFile nStep
-        inFile would be the input file.
-        nStep is the array-distance between the atoms distance to measure.
+This program can be called directly:<br>
+Compilation: gfortran atm2dst.f90 -o atm2dst.exec<br>
+Usage: ./atm2dst.exec inFile nStep<br>
+        inFile would be the input file<br>.
+        nStep is the array-distance between the atoms distance to measure.<br>
 
 This program can be called through runPDB.sh
 By default, runPDB considers nStep==1, and that the files are located at a
