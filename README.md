@@ -30,6 +30,8 @@ cndb2dst.py is a python program design to take as CNDB files, save the
 positions of the atoms of the last frame on a position file, and then call
 atoms2dst.exec to measure the euclidian distances.
 
+cndb2dst.py requires the python library OpenMiChroM to function.
+
 This program can be called directly:
 Compilation: gfortran atm2dst.f90 -o atm2dst.exec     
 Usage: ./cndb2dst.py -f inFile -n nStep
